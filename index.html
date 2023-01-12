@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+  <div class="container">
+    <div class="login-left">
+      <div class="login-header">
+        <h1>Welcome to our application</h1>
+        <p>Please login to use the platform</p>
+      </div>
+      <form class="login-form" >
+        <div class="login-form-content">
+           <div class="form-item">
+            <label for="email">Enter Email</label>
+            <input type="text" id="email">
+           </div>
+           <div class="form-item">
+            <label for="password">Enter Password</label>
+            <input type="password" id="password">
+           </div>
+           <div class="form-item">
+            <div class="checkbox">
+              <input type="checkbox" id="rememberMeCheckbox" checked>
+              <label for="rememberMeCheckbox" class="checkboxLabel">Remember me</label>
+            </div>
+           </div>
+           <button type="submit">Sign In</button>
+        </div>
+        <div class="login-form-footer">
+          <a href="#">
+            <img width="30" src="https://www.google.com/search?q=facebook+photo&rlz=1C1CHBF_enIN1017IN1017&oq=facebook+ph&aqs=chrome.1.69i57j0i433i512j0i20i263i512j0i433i512j0i512l5j0i433i512.6884j0j7&sourceid=chrome&ie=UTF-8#imgrc=GE-h_lYOhAZquM" alt=""> Facebook Login
+          </a>
+          <a href="#">
+            <img src="https://www.google.com/search?q=google+photo&rlz=1C1CHBF_enIN1017IN1017&sxsrf=AJOqlzUJjS1dlpcff-pmV5iXTn9u2NvZfw:1673081440512&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjG_MOHirX8AhXRTWwGHfliDfgQ0pQJegQIBhAC&biw=1536&bih=714&dpr=1.25#imgrc=ljTTsfq3E96t7M" width="30" alt=""> Google Login
+          </a>
+        </div>
+      </form>
+    </div>
+    <div class="login-right">
+      <img src="./image.svg">
+    </div>
+  </div>
+</body>
+</html>
